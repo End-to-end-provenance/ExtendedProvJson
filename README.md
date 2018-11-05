@@ -6,4 +6,6 @@ This repository contains documentation about a version of PROV-JSON that is exte
 
 In this extension, a PROV activity corresponds to a line of code and includes details such as the line and column location of the code within the script.  A PROV entity represents either a data value (including variable values, input and output files, and plots), information about a library or a library function used, or information about the computing environment.  wasInformedBy edges are used to represent control flow between statements.  wasGeneratedBy edges connect statements to the values they output, while used edges connect data to the statements that use the data.  hadMember edges connect functions to the libraries that they come from.
 
+[rdt](https://github.com/End-to-end-provenance/rdt) and [rdtLite](https://github.com/End-to-end-provenance/rdtLite) are examples of tools that collect provenance and write it using this extended PROV-JSON notation.  [provDebugR](https://github.com/End-to-end-provenance/provDebugR), [Rclean](https://github.com/ProvTools/Rclean), and [DDG Explorer](https://github.com/End-to-end-provenance/DDG-Explorer) are tools that use provenance written in this notation.
+
 For full detail of this extension, please read the document in the repository.
