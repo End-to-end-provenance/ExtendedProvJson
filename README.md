@@ -8,4 +8,4 @@ In this extension, a PROV activity corresponds to a line of code and includes de
 
 [rdt](https://github.com/End-to-end-provenance/rdt) and [rdtLite](https://github.com/End-to-end-provenance/rdtLite) are examples of tools that collect provenance and write it using this extended PROV-JSON notation.  [provDebugR](https://github.com/End-to-end-provenance/provDebugR), [Rclean](https://github.com/ProvTools/Rclean), and [DDG Explorer](https://github.com/End-to-end-provenance/DDG-Explorer) are tools that use provenance written in this notation.
 
-For full detail of this extension, please read the document in the repository.
+For full detail of this extension, please read the [document in the repository](JSON-format.md).
