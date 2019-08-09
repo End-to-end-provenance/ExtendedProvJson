@@ -4,7 +4,7 @@ _json ver. 2.1_
 
 ---
 
-## Table of Contents
+## Contents
 
 1. [The Provenance Graph](https://github.com/End-to-end-provenance/ExtendedProvJson/blob/master/JSON-format.md#1-the-provenance-graph)
 2. [The JSON file](https://github.com/End-to-end-provenance/ExtendedProvJson/blob/master/JSON-format.md#2-the-json-file)
