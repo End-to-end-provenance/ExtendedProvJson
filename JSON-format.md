@@ -4,6 +4,25 @@ _json ver. 2.1_
 
 ---
 
+## Table of Contents
+
+1. [The Provenance Graph](https://github.com/End-to-end-provenance/ExtendedProvJson/blob/master/JSON-format.md#1-the-provenance-graph)
+2. [The JSON file](https://github.com/End-to-end-provenance/ExtendedProvJson/blob/master/JSON-format.md#2-the-json-file)
+	a. [prefix](https://github.com/End-to-end-provenance/ExtendedProvJson/blob/master/JSON-format.md#a-prefix)
+	b. [agent](https://github.com/End-to-end-provenance/ExtendedProvJson/blob/master/JSON-format.md#b-agent)
+	c. [activity](https://github.com/End-to-end-provenance/ExtendedProvJson/blob/master/JSON-format.md#c-activity)
+	d. [entity](https://github.com/End-to-end-provenance/ExtendedProvJson/blob/master/JSON-format.md#d-entity)
+		* [data nodes](https://github.com/End-to-end-provenance/ExtendedProvJson/blob/master/JSON-format.md#--data-nodes)
+		* [environment](https://github.com/End-to-end-provenance/ExtendedProvJson/blob/master/JSON-format.md#--environment)
+		* [library nodes](https://github.com/End-to-end-provenance/ExtendedProvJson/blob/master/JSON-format.md#--library-nodes)
+		* [function nodes](https://github.com/End-to-end-provenance/ExtendedProvJson/blob/master/JSON-format.md#--function-nodes)
+	e. [wasInformedBy](https://github.com/End-to-end-provenance/ExtendedProvJson/blob/master/JSON-format.md#e-wasinformedby)
+	f. [wasGeneratedBy](https://github.com/End-to-end-provenance/ExtendedProvJson/blob/master/JSON-format.md#f-wasgeneratedby)
+	g. [used](https://github.com/End-to-end-provenance/ExtendedProvJson/blob/master/JSON-format.md#g-used)
+	h. [hadMember](https://github.com/End-to-end-provenance/ExtendedProvJson/blob/master/JSON-format.md#h-hadmember)
+
+---
+
 ## 1. The Provenance Graph
 
 Our provenance collection tools represent the provenance collected from an execution of an R script in the form of a directed graph..
