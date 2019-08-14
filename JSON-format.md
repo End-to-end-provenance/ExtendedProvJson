@@ -205,9 +205,12 @@ Data nodes contain the following fields:
 * _type_: The type of data. The different values it can be are:
    - _Data_: The most common type. This is data stored in memory. This is also the type of data node for snapshots whose values are not saved.
    - _Snapshot_: Data that is larger than a predetermined size are stored as snapshots. 
+   - _Device_: A graphics device used when a plot is being created.
    - _File_: A file. 
    - _URL_: A url.
-   - _Exception, Warning_: Exceptions and warnings thrown by a procedure.
+   - _Exception_: Exceptions and warnings thrown by a procedure.
+   - _StandardOutput_: Data that is printed to the standard output. This is created when functions such as `print` are called.
+   - _StandardOutputSnapshot_: Data sent to standard output that is larger than a predetermined size.
 * _scope_: The scope, or environment, where this data resides in.
 * _fromEnv_: This value is set to TRUE if the variable was set in the Global Environment before the script was run, FALSE otherwise.
 * _hash_: The hash number for this node if the data node is for a file.
