@@ -279,14 +279,15 @@ Below is the environment node from the json file generated when running RDataTra
 	"rdt:architecture": "x86_64",
 	"rdt:operatingSystem": "windows",
 	"rdt:language": "R",
-	"rdt:langVersion": "R version 3.5.0 (2018-04-23)",
+	"rdt:langVersion": "R version 3.6.1 (2019-07-05)",
 	"rdt:script": "C:/Users/fong22e/Documents/provjson/examples/example1.R",
-	"rdt:scriptTimeStamp": "2018-07-17T09.39.51EDT",
+	"rdt:scriptTimeStamp": "2019-08-15T18.21.18EDT",
+	"rdt:totalElapsedTime": "1.7",
 	"rdt:sourcedScripts": "",
 	"rdt:sourcedScriptTimeStamps": "",
 	"rdt:workingDirectory": "C:/Users/fong22e/Documents/provjson/examples",
-	"rdt:ddgDirectory": "./prov_example1",
-	"rdt:ddgTimeStamp": "2018-07-17T09.47.44EDT",
+	"rdt:provDirectory": "C:/Users/fong22e/Documents/provjson/examples/prov_example1",
+	"rdt:provTimeStamp": "2019-08-21T18.40.32EDT",
 	"rdt:hashAlgorithm": "md5"
 }
 ```
@@ -306,22 +307,23 @@ source("file3.R")
 	"rdt:architecture": "x86_64",
 	"rdt:operatingSystem": "windows",
 	"rdt:language": "R",
-	"rdt:langVersion": "R version 3.5.0 (2018-04-23)",
+	"rdt:langVersion": "R version 3.6.1 (2019-07-05)",
 	"rdt:script": "C:/Users/fong22e/Documents/provjson/examples/example2.R",
-	"rdt:scriptTimeStamp": "2018-06-22T13.23.04EDT",
+	"rdt:scriptTimeStamp": "2019-08-15T18.21.19EDT",
+	"rdt:totalElapsedTime": "1.8",
 	"rdt:sourcedScripts": [
 		"C:/Users/fong22e/Documents/provjson/examples/file1.R",
 		"C:/Users/fong22e/Documents/provjson/examples/file2.R",
 		"C:/Users/fong22e/Documents/provjson/examples/file3.R"
 	],
 	"rdt:sourcedScriptTimeStamps": [
-		"2018-06-22T12.07.45EDT",
-		"2018-06-22T12.07.58EDT",
-		"2018-06-22T12.08.09EDT"
+		"2019-08-15T18.21.17EDT",
+		"2019-08-15T18.21.18EDT",
+		"2019-08-15T18.21.19EDT"
 	],
 	"rdt:workingDirectory": "C:/Users/fong22e/Documents/provjson/examples",
-	"rdt:ddgDirectory": "./prov_example2",
-	"rdt:ddgTimeStamp": "2018-06-22T13.30.34EDT",
+	"rdt:provDirectory": "C:/Users/fong22e/Documents/provjson/examples/prov_example2",
+	"rdt:provTimeStamp": "2019-08-21T19.52.52EDT",
 	"rdt:hashAlgorithm": "md5"
 }
 ```
