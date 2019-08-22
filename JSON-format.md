@@ -1,6 +1,6 @@
 # Understanding RDataTracker’s Prov-Json Output        
 
-_json ver. 2.1_
+_json ver. 2.3_
 
 ---
 
@@ -135,7 +135,6 @@ We adapted this to contain a node with the following information:
   
 ```
 "agent" : {
-	// agent: this json file and the tool that produced this
 	"rdt:a1": {
 		"rdt:tool.name": "RDataTracker",
 		"rdt:tool.version": "2.27.0",
@@ -311,9 +310,9 @@ source("file3.R")
 	"rdt:script": "C:/Users/fong22e/Documents/provjson/examples/example2.R",
 	"rdt:scriptTimeStamp": "2018-06-22T13.23.04EDT",
 	"rdt:sourcedScripts": [
-		"file1.R",
-		"file2.R",
-		"file3.R"
+		"C:/Users/fong22e/Documents/provjson/examples/file1.R",
+		"C:/Users/fong22e/Documents/provjson/examples/file2.R",
+		"C:/Users/fong22e/Documents/provjson/examples/file3.R"
 	],
 	"rdt:sourcedScriptTimeStamps": [
 		"2018-06-22T12.07.45EDT",
@@ -367,7 +366,6 @@ Sometimes, multiple libraries will have functions with the same name. In this ca
 ```
 ```
 "hadMember" : {
-	// groups function nodes with their library nodes
 	"rdt:m1": {
 		"prov:collection": "rdt:l8",
 		"prov:entity": "rdt:f1"
@@ -404,7 +402,6 @@ We use this section for procedure-to-data (data output) edges.
   
 ```
 "wasGeneratedBy" : {
-	// procedure-to-data edges
 	"rdt:pd1": {
 		"prov:activity": "rdt:p2",
 		"prov:entity": "rdt:d1"
@@ -448,7 +445,6 @@ This represents the concept of [membership](https://www.w3.org/TR/2013/REC-prov-
 We use this section to group each function node with their library node, indicating which library a function is from.
 ```
 "hadMember" : {
-	// groups function nodes with their library nodes
 	"rdt:m1": {
 		"prov:collection": "rdt:l8",
 		"prov:entity": "rdt:f1"
