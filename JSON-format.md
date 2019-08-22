@@ -1,6 +1,9 @@
 # Understanding RDataTracker’s Prov-Json Output        
 
+_For both rdt and rdtLite_  
 _json ver. 2.3_
+
+_Updated on 21st August 2019_
 
 ---
 
@@ -129,16 +132,37 @@ The [PROV data model](https://www.w3.org/TR/2013/REC-prov-dm-20130430/) defines 
 _“An agent is something that bears some form of responsibility for an activity taking place, for the existence of an entity, or for another agent's activity.”_
 
 We adapted this to contain a node with the following information:
-* The name of the tool which produced the json file.
-* The version number of that tool.
-* The version number of our prov-json representation.
+* _tool.name_: The name of the tool which produced the json file.
+* _tool.version_: The version number of that tool.
+* _json.version_: The version number of our prov-json representation.
+* _args.names_: The argument names of the function called which produced the provenance, either `prov.run` or `prov.init`.
+* _args.values_: The values of those arguments.
+* _args.types_: The data types of those arguments.
   
 ```
 "agent" : {
 	"rdt:a1": {
-		"rdt:tool.name": "RDataTracker",
-		"rdt:tool.version": "2.27.0",
-		"rdt:json.version": "2.1"
+		"rdt:tool.name": "rdtLite",
+		"rdt:tool.version": "1.1.1",
+		"rdt:json.version": "2.3",
+		"rdt:args.names": [
+			"overwrite",
+			"details",
+			"snapshot.size",
+			"save.debug"
+		],
+		"rdt:args.values": [
+			"TRUE",
+			"TRUE",
+			"10",
+			"FALSE"
+		],
+		"rdt:args.types": [
+			"logical",
+			"logical",
+			"numeric",
+			"logical"
+		]
 	}
 }
 ```
